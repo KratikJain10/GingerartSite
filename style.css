@@ -831,6 +831,7 @@ input:required {
 .classy-nav-container {
   background-color: transparent;
   padding: 0;
+  margin-top: -40px;
 }
 
 .classy-nav-container .classy-navbar {

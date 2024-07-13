@@ -27,7 +27,7 @@
   color: #e28a05;
 }
 
-#nav a{
+#a{
   color: #f1b084;
 }
 
@@ -613,7 +613,8 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 
 .classy-nav-container {
   background-color: transparent;
-  padding: 0
+  padding: 0;
+  margin-top: -40px;
 }
 
 .classy-nav-container .classy-navbar {
@@ -621,13 +622,15 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
   height: 70px;
-  padding: 0
+  padding: 0;
+  margin-top: -40px;
 }
 
 @media only screen and (max-width:767px) {
   .classy-nav-container .classy-navbar .nav-brand {
     max-width: fit-content;
-    margin-right: 15px
+    margin-right: 15px;
+    margin-top: -40px;
   }
 }
 
